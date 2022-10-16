@@ -1,23 +1,16 @@
-/* Variable hora de la toma inicial */
-let h_tomainicial = 2 //0-23
+let hora_inicial = 14;
+let frecuencia = 2;
 
-/* Variable frecuencia de la toma diaria */
-let f_tomadiaria = 3 //1-12
-
-/* Verificar datos */
-console.log(`Hora inicial de la toma: ${h_tomainicial}`);
-console.log(`Frecuencia: ${h_tomainicial}`);
-
-let contador = 1
-
-while ( contador <= f_tomadiaria ) {
-    document.write("<p>" + "toma" + "&nbsp;" + contador + "&nbsp;" + h_tomainicial + "&nbsp;" + "</p>");
-    contador ++;
-    h_tomainicial += h_tomainicial;
-}
+let cant_tomas = 24 / frecuencia;
 
 console.log("Horarios");
-console.log(`Toma ${contador} ${hora_contador}`);
 
+let horario = hora_inicial;
 
-
+for (let i = 1;i <= cant_tomas; i++) {
+    console.log(`Toma: ` + i + " | " + (horario) + ":00 hrs|");
+    horario = horario + frecuencia;
+    if (horario >= 24) {
+        horario = horario - 24;
+    };
+};
