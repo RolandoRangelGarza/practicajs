@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa tabla</title>
+    <link rel="stylesheet" href="styletablas.css">
+</head>
+<body>
+    <section class ="contenido">
+        
+        <div class="datos">
+            <h1>Javascript programa tablas</h1>
+            <div id="formulario">
+                <label for="tabla">Tabla: </label>
+                <input type="text" name="tabla" id="tabla">
+            </div>
+            <div id="formulario">
+                <label for="tipo">Tipo: </label>
+                <input type="text" name="tipo" id="tipo">
+            </div>
+            <div id="formulario">
+                <label for="longitud">Longitud: </label>
+                <input type="text" name="longitud" id="longitud">
+            </div>
+            <div>
+                <button onclick="generaTabla()">Generar</button>
+            </div>
+            <div>
+                <button onclick="borrar()">Borrar tabla</button>
+            </div>
+            
+        </div>
+        <div class="tabla_resultados">
+            <h3>Tabla de resultados: </h3>
+            <br>
+            <div id="ref_tabla">
+
+            </div>
+        </div>
+        <script src="js5_prog_tabla.js"></script>
+    </section>
+</body>
+</html>
+<!-- Programa tabla -->
+<!-- Tabla -->
+<!-- Tipo (normal e invertida) -->
+<!-- Longitud (cuantos) -->
+<!-- [resultado aquí] -->
+<!-- "Ver tabla" -->

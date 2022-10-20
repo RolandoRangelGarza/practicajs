@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(https://media.tenor.com/IQMWG01MOvwAAAAC/night-city.gif);
+    background-size: 100vh 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 3vh 0% 0vh 0vh;
+}
+
+#formulario {
+    margin: 7%;
+}
+
+label {
+    width: 15rem;
+    height: 2rem;
+    font-size: 2rem;
+    margin-left: 0%;
+    color: antiquewhite;
+    font-family: monospace;
+    background-color: black;
+    border-radius: 10%;
+}
+
+input {
+    width: 25rem;
+    height: 2rem;
+    font-size: 2rem;
+    margin-left: 7%;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 5%;
+}
+
+button {
+    width: 35%;
+    height: 7vh;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-family: monospace;
+    font-size: 1.5rem;
+    border-radius: 4%;
+
+    /* margin-left: 9vh;
+    margin-bottom: 1rem; */
+}
+
+div > h1 {
+    font-size: 2.2rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    font-family: monospace;
+    border-radius: 5%;
+}
+
+.tabla_resultados {
+    display: block;
+    justify-content: center;
+    font-size: 1.8rem;
+    border: 3px solid black;
+    padding: 2% 5% 2% 4%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 6%;
+    font-family: monospace;
+}
+
+.tabla_resultados > h3 {
+    padding-bottom: 6%;
+}
+
+#ref_tabla {
+    display: block;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.datos {
+    display: block;
+    justify-content: space-around;
+    width: 40%;
+}
+
