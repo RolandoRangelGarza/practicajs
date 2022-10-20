@@ -7,7 +7,7 @@ function agregaTabla ( tabla, tipo, longitud ) {
         }
     }
     else {
-        for ( i=longitud; i<= 0; i--) {
+        for ( i=longitud+1; i> 0; i--) {
             resultado.push(`${tabla} x ${i} = ${tabla*i}`)
         }
     }
