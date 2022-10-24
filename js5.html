@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
     <script src="js5.js"></script>
-    <h1>Javascript calculadora</h1>
-
-    <div>
-        <div>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Javascript calculadora</h1>
+        </div>
+        
+        <div class="formulario">
             <label for="numero1">Numero 1: </label>
             <input type="text" name="numero1" id="numero1">
         </div>
-        <div>
+
+        <div class="formulario">
             <label for="numero2">Numero 2: </label>
             <input type="text" name="numero2" id="numero2">
         </div>
-        <div>
+
+        <div class="formulario">
             <label for="signo">Operacion: </label>
-            <input type="text" name="signo" id="signo">
+            <select name="signo" id="signo" form="signo">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+              </select>
         </div>
-        <div>
+
+        <div class="formulario">
             <label for="resultado">Resultado: </label>
             <input type="text" name="resultado" id="resultado" readonly>
         </div>
-        <div>
+
+        <div class="boton">
             <button onclick="calcular()">Calcular</button>
         </div>
     </div>
-
 </body>
 </html>
 
