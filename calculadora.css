@@ -23,11 +23,39 @@ body {
 }
 
 .contenedor > .titulo {
-    border: 1px solid black;
     background-color: #C8FFD4;
     padding: 3%;
 }
 
 .contenedor > .titulo > h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario {
+    padding: 1rem 0;
+}
+
+.formulario > label, input, select {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        /* Centrar div para cualquier resolución */
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid black;
+        padding: 0 0 2% 0;
+        background-color: #FDFDBD;
+        width: 90%;
+        text-align: center;
+    }
 }
