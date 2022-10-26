@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    background-color: #F6F6C9;
+}
+.titulo {
+    background-color: #153462;
+    text-align: center;
+    padding: 20px 0%;
+    font-family: monospace;
+    color: white;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
@@ -10,16 +21,62 @@
     margin:3% auto;
     height: 100%;
     width: 90%;
-    background-color: red;
 }
 
 .divisores {
-    background-color: blue;
-    margin-right: 60px;
-    height: 400px;
+    background-color: #BAD1C2; 
+    height: 460px;
+    min-height: 400px;
+    width: 50%;
+    min-width: 600px;
+    text-align: center;
 }
 
+.divisores div{
+    padding: 6% 0%;
+    display: block;
+}
+
+label, input{
+    padding: 1% 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+button {
+    padding: 2%;
+}
+.divisores #titulo-1 {
+    background-color: #4FA095;
+    padding: 4% 0;
+    font-family: monospace;
+}
 .imagenes {
-    background-color: green;
-    margin-left: 60px;
+    background-color: #D6CDA4;
+    height: 460px;
+    width: 50%;
+    min-width: 600px;
+    text-align: center;
+}
+.imagenes #titulo-2 {
+    background-color: #3D8361;
+    padding: 4% 0;
+    font-family: monospace; 
+}
+
+.imagenes #formulario-imagenes{
+    padding: 2% 0%;
+    display: block;
+}
+.imagenes #imagen-mostrada {
+   display: flex;
+   justify-content: center;
+}
+
+#boton {
+    margin-top: 3%;
+}
+img {
+    width: 250px;
+    height:250px;
 }

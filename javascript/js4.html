@@ -14,7 +14,9 @@
     <script src="js4.js"></script>
     <div class="contenedor">
         <div class="divisores">
-            <h2>¿Cuántos divisores tiene el numero?</h2>
+            <div id="titulo-1">
+                <h2>¿Cuántos divisores tiene el numero?</h2>
+            </div>
             <div>
                 <label for="numero">Numero: </label>
                 <input type="text" name="numero" id="numero">
@@ -29,16 +31,19 @@
         </div>
 
         <div class="imagenes">
-            <h2>Colocar imagen</h2>
-            <div>
+            <div id="titulo-2">
+                <h2>Colocar imagen</h2>
+            </div>
+            
+            <div id="formulario-imagenes">
                 <label for="numeroimagen">Numero de imagen: </label>
                 <input type="text" name="numeroimagen" id="numeroimagen">
-                <div>
+                <div id="boton">
                     <button onclick="imagen()">Calcular</button>
                 </div>
             </div>
-            <div>
-                <img src="" alt="imagen" id="imagenforms" style="display: none" width="300px" height="300px">
+            <div id="imagen-mostrada">
+                <img src="" alt="imagen" id="imagenforms" style="display: none;">
             </div>
         </div>
     </div>
