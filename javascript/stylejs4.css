@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3% auto;
+    height: 100%;
+    width: 90%;
+    background-color: red;
+}
+
+.divisores {
+    background-color: blue;
+    margin-right: 60px;
+    height: 400px;
+}
+
+.imagenes {
+    background-color: green;
+    margin-left: 60px;
+}
