@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 215, 137);
+}
+
+.contenido h1 {
+    font-family: monospace;
+    font-size: 13vh;
+}

@@ -12,7 +12,7 @@
         toma 3 17
         toma 4 23
 */
-
+alert("Consultar procedimiento en la terminal de javascript")
 //¿A qué hora comenzó la dosis?
 let h_tomainicial = 23;
 console.log(`Hora de la toma inicial: ${h_tomainicial}`)
