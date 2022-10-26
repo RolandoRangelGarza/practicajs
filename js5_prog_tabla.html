@@ -17,8 +17,13 @@
                 <input type="text" name="tabla" id="tabla">
             </div>
             <div id="formulario">
-                <label for="tipo">Tipo: </label>
-                <input type="text" name="tipo" id="tipo">
+                <div id="tipo_dato">
+                    <label for="tipo">Tipo: </label>
+                    <select name="tipo" id="tipo" form="tipo">
+                        <option value="normal">Normal</option>
+                        <option value="invertida">Invertida</option>
+                    </select>
+                </div>
             </div>
             <div id="formulario">
                 <label for="longitud">Longitud: </label>
@@ -34,7 +39,6 @@
         </div>
         <div class="tabla_resultados">
             <h3>Tabla de resultados: </h3>
-            <br>
             <div id="ref_tabla">
 
             </div>

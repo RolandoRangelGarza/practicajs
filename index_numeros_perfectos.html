@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles_numerosp.css">
 </head>
 <body>
-    <h1>Javascript funciones</h1>
-    <script src="fn_numeros_perfectos.js"></script>
-
-    <div>
-        <h2>Programa numeros perfectos</h2>
-        <div>
+<script src="fn_numeros_perfectos.js"></script>
+<main>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Calcular números perfectos</h1>
+        </div>
+        <div class="formulario">
             <label for="numero">Cantidad de numeros perfectos: </label>
             <input type="text" name="numero" id="numero">
         </div>
-        <div>
+        <div class="formulario">
             <label for="numero">Numeros: </label>
             <input type="text" name="resultado" id="resultado" readonly>
         </div>
@@ -24,6 +26,6 @@
             <button onclick="calcular()">Calcular</button>
         </div>
     </div>
-
+</main>
 </body>
 </html>
