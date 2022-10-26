@@ -15,13 +15,13 @@
 
 //¿A qué hora comenzó la dosis?
 let h_tomainicial = 23;
-
+console.log(`Hora de la toma inicial: ${h_tomainicial}`)
 //¿Cada cuanto se toma la siguiente medicina?
 let f_tomadiaria = 5;
-
+console.log(`Frecuencia de la toma diaria: ${f_tomadiaria}`)
 //¿Cuántas pastillas se tiene que tomar?
 let cant_tomas = 12;
-
+console.log(`Cantidad de tomas: ${cant_tomas}`)
 // Acumulador de la siguiente hora para tomar la medicina, empieza a la hora inicial
 let hora = h_tomainicial;
 
